@@ -23,7 +23,7 @@ This repository showcases an end-to-end video-based anomaly detection that is ca
   <img src="assets/demo_environment.png" height="256"/>
 </div>
 
-The input is a random video labeled as "arson" from UCF-Crime testset. The input path is specified in the config file above.
+The input is a random video labeled as "arson" from UCF-Crime testset. The input path is specified in the config file.
 
 <a id="prerequisites"></a>
 ## 🛠️ Prerequisites
