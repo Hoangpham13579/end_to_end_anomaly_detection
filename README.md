@@ -1,4 +1,4 @@
-# End-to-end Video-based Anomaly Detection System
+# Benchmarking Jetson Edge Devices with an End-to-end Video-based Anomaly Detection System
 This repo contains the Pytorch implementation of our paper:
 > [**Benchmarking Jetson Edge Devices with an End-to-end Video-based Anomaly Detection System**](https://link.springer.com/chapter/10.1007/978-3-031-53963-3_25)
 >
