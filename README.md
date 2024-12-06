@@ -5,6 +5,7 @@ This repo contains the Pytorch implementation of our paper:
 > Hoang V Pham, Thinh G Tran, Chuong D Le, An D Le, Hien B Vo
 
 - **Accepted at FICC 2024.**
+- **Acknowledgment:** Grateful for Mr. Dat Thanh Vo, from University of Windsor, Canada, for the support on the process of designing a 3D cover box. Grateful for Mr. Anh Duy Pham, from Hochschule Bonn-Rhein-Sieg Sankt Augustin, Germany for the constructive comments during the deployment process.
 
 This repository showcases an end-to-end video-based anomaly detection that is capable of running in 🔥 ***real-time*** 🔥 on [NVIDIA Jetson Orin Platforms](https://store.nvidia.com/en-us/jetson/store) with [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt). This repository is built based on [RTFM](https://github.com/tianyu0207/RTFM) as the anomaly detector model and [SlowFast](https://github.com/facebookresearch/SlowFast) as for the end-to-end codebase from camera (and video) directly.
 
