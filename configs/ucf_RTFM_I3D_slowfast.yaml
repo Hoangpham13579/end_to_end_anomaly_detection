@@ -1,0 +1,37 @@
+DEMO:
+  ENABLE: True
+  INPUT_VIDEO: data/Arson014_x264.mp4
+  # If "OUTPUT_FILE" is specified, the visualized outputs will be written this a video file of
+  # this path. Otherwise, the visualized outputs will be displayed in a window.
+  OUTPUT_FILE: output/Arson014_x264.avi
+  LABEL_FILE_PATH: data/ClassIDs.json
+  ANOMALY_THRESHOLD: 0.6
+  BATCH_SIZE: 1
+  NUM_CLIPS_SKIP: 0
+  WEBCAM: -1  # -1 for input video, 0 (or 1) for camera
+  THREAD_ENABLE: True
+  NUM_VIS_INSTANCES: 3
+  BUFFER_SIZE: 80  # BUFFER_SIZE Should divided by 16
+  OUTPUT_FPS: 24
+  # 1. NUM_CLIPS_SKIP: 0, OUTPUT_FPS: 24
+  DISPLAY_WIDTH: 640
+  DISPLAY_HEIGHT: 480
+DATA:
+  FEATURE_EXTRACTOR: 'I3Res50'  # I3Res50
+  FEATURE_EXTRACTOR_CKPT: 'ckpt/i3d_nonlocal_32x2_IN_pretrain_400k.pth'
+  FEATURE_SIZE: 2048
+  NUM_FRAMES: 16
+  SAMPLING_RATE: 15
+  TEST_CROP_SIZE: 256
+  MEAN: [114.75, 114.75, 114.75]
+  STD: [57.375, 57.375, 57.375]
+MODEL:
+  NUM_CLASSES: 2  # Normal & Abnormal
+  MODEL_NAME: 'rtfm'
+  WEIGHT: 'ckpt/rtfm-ucf-best.pkl'
+  NON_LOCAL: True
+  DROPOUT_RATE: 0.5
+  NUM_BLOCK_TEMP_KERNEL: [3, 4, 6, 3]
+NUM_GPUS: 1
+RNG_SEED: 27
+OUTPUT_DIR: './output/'

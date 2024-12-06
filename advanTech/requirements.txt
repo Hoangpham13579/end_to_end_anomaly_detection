@@ -1,0 +1,6 @@
+# azure_storage==0.37.0  ~ 512 KB
+azure-storage-blob==12.12.0
+# psycopg2==2.9.6
+psycopg2-binary
+Requests==2.30.0
+WISE_PaaS_DataHub_Edge_Python_SDK==1.1.7

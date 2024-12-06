@@ -1,0 +1,11 @@
+torch
+torchvision
+opencv-python
+slowfast
+numpy
+pathlib
+azure-storage-blob
+sqlalchemy
+psutil
+torch_tensorrt
+psycopg2-binary
