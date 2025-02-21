@@ -28,13 +28,13 @@ The input is a random video labeled as "arson" from UCF-Crime testset. The input
 <a id="prerequisites"></a>
 ## 🛠️ Prerequisites
 
-**Please download the Resnet50 I3D features extractor and RTFM models checkpoints training on UCF-Crime dataset from links below and save the `ckpt` folder in the current repository:**
+**Please download the Resnet50 I3D features extractor and RTFM models checkpoints training on UCF-Crime dataset from links below, create folder `ckpt` and save those weight in the `ckpt` folder:**
 
 > [**I3D non-local pretrain feature extractor**](https://drive.google.com/file/d/1ftpFkny4twWUo1VsDkMR7gn1lv-wAVnI/view?usp=sharing)
 > 
 > [**RTFM training on UCF-Crime dataset**](https://drive.google.com/file/d/1_UM9Cwiga9iJP5jZRnfW-5pA36hiC33x/view?usp=sharing)
 
-Please download videos data from [HERE](https://drive.google.com/drive/folders/1a05sTLHK4qG0zoqn7m97QKOhauVYVdU0?usp=sharing), create folder  `data` & save those video there for testing
+Please download videos data from [HERE](https://drive.google.com/drive/folders/1a05sTLHK4qG0zoqn7m97QKOhauVYVdU0?usp=sharing), create folder  `data` & save those video in `data` folder for testing
 
 <a id="performance"></a>
 ## ⏱️ Performance
