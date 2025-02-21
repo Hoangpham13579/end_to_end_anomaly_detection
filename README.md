@@ -34,7 +34,7 @@ The input is a random video labeled as "arson" from UCF-Crime testset. The input
 > 
 > [**RTFM training on UCF-Crime dataset**](https://drive.google.com/file/d/1_UM9Cwiga9iJP5jZRnfW-5pA36hiC33x/view?usp=sharing)
 
-Please download videos data from [HERE](https://drive.google.com/drive/folders/1a05sTLHK4qG0zoqn7m97QKOhauVYVdU0?usp=sharing) & save in `data` folder for testing
+Please download videos data from [HERE](https://drive.google.com/drive/folders/1a05sTLHK4qG0zoqn7m97QKOhauVYVdU0?usp=sharing), create folder  `data` & save those video there for testing
 
 <a id="performance"></a>
 ## ⏱️ Performance
